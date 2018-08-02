@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.rs-item .img-rs {
+    height: 0;
+    overflow: hidden;
+}
+
+.body-corpo.article_list #zone2 .list-articles article img {
+    left: 0em !important;
+    margin-left: 0% !important;
+}
+.home-inspirations .gla-btn-read-more ,.home-univers .gla-btn-read-more, */
+
+.body-mobile .gla-btn-read-more{display:none !important;}
+
+/*.slider-content .la-item-btn{display:none !important;}
+.la-slider .la-item-title a {
+    color: #000000;
+}
+.front #zone1 .list-articles .main-title-with-link .link-view-all {
+font-weight: normal;
+}
+
+.site-banner .main-navigation .mn-item-lvl-1 > .mn-link:lang(en) { 
+font-size: 1.6rem;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+}
+
+.site-banner .main-navigation li:last-child ul {
+    width: auto;
+}
+.front #zone2 .list-articles {
+    padding: 0px 0 100px;
+}
+.front .layout-2-col #zone2 {
+    margin-top: -25px;
+margin-bottom:0px;
+}
+.front .layout-2-col #zone3 { 
+margin-bottom:101px;
+}
+
+.front .layout-2-col #zone3 .univers-video {
+    height: 475px;
+}
+*/
+.video-container iframe{width: auto !important}
+
+
+/* Ajouts Calendrier */
+.site-banner {
+    position: relative;
+}
+
+.is-stuck.site-banner {
+    position: inherit;
+}
+.social-sharing{display:none}
+.page-events .event-form{display:none}
+.page-events .atelier{display:none}
+
+
+
+.cxp-swiper .slider-item .la-item-btn, .cxp-swiper .slider-item .la-item-desc {
+	display:none
+}
+.front #zone1 .list-articles .la-item-content {
+    bottom: -20px;}
+.front #zone1 .list-articles .slider-pagin .slider-pagin-nb {
+    display: none;
+}
+.la-slider .la-item-title a{color:#000000;}
+
+.front #zone1 .list-articles .slider-pagin {
+    display: none;
+}
+.slider {
+    height: 180px;
+}
