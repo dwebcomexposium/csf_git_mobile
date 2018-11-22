@@ -81,3 +81,19 @@ margin-bottom:101px;
 .slider {
     height: 180px;
 }
+
+
+/***Liste de produit ezflow*****/
+.front #zone4 .mod-catal.catal-ex-blocs .catal-ex-item-img{
+max-height:200px;
+}
+
+.front #zone4 .mod-catal.catal-ex-blocs .catal-ex-item-img a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    max-height: 200px;
+}
+.front #zone4 .mod-catal.catal-ex-blocs .catal-ex-item-title {
+	position: initial;
+}
