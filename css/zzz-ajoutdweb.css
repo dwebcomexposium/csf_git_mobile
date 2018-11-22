@@ -97,3 +97,8 @@ max-height:200px;
 .front #zone4 .mod-catal.catal-ex-blocs .catal-ex-item-title {
 	position: initial;
 }
+
+.front #zone4 .mod-catal.catal-ex-blocs .catal-ex-item-content {
+    padding-bottom: 15px;
+    max-width: inherit;
+}
