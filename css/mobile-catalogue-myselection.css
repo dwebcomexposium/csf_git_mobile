@@ -61,6 +61,10 @@
   font-size: 1.3rem;
   color: inherit;
 }
+.mod-catal .mysel-title.mysel-title,
+.mod-catal .hist-title.hist-title {
+  margin-top: 0;
+}
 .mod-catal .mysel-title .icon-catal-star-full,
 .mod-catal .hist-title .icon-catal-clock {
   position: absolute;

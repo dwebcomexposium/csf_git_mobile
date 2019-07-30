@@ -82,8 +82,10 @@
 .mod-catal .catal-ex-item-buttons .icon-catal,
 .mod-catal .catal-ex-item-buttons-small .icon-catal {
   width: 16px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  vertical-align: 0;
   font-size: 1.1rem;
-  vertical-align: 0rem;
 }
 .mod-catal .catal-ex-item-buttons [class^="selection-"] .icon-catal,
 .mod-catal .catal-ex-item-buttons-small [class^="selection-"] .icon-catal {
@@ -130,6 +132,9 @@
 .mod-catal .catal-ex-item-stand-link:hover,
 .mod-catal .catal-ex-item-cat-link:hover {
   color: #7ea203;
+}
+.mod-catal .catal-ex-item-stand-nolink {
+  color: #2b2f2f;
 }
 .mod-catal .catal-ex-item-country {
   margin: 0;
@@ -253,11 +258,13 @@
 .mod-catal .catal-ex-item-stand-item {
   display: inline-block;
 }
-.mod-catal .catal-ex-item-stand-item .catal-ex-item-stand-link {
+.mod-catal .catal-ex-item-stand-item .catal-ex-item-stand-link,
+.mod-catal .catal-ex-item-stand-item .catal-ex-item-stand-nolink {
   padding-right: 0.8rem;
   border-right: 1px solid #e3e9ea;
 }
-.mod-catal .catal-ex-item-stand-item:last-of-type .catal-ex-item-stand-link {
+.mod-catal .catal-ex-item-stand-item:last-of-type .catal-ex-item-stand-link,
+.mod-catal .catal-ex-item-stand-item:last-of-type .catal-ex-item-stand-nolink {
   padding-right: 0;
   border-right: 0;
 }
@@ -408,24 +415,6 @@
 .mod-catal _:-moz-tree-row(hover) {
   vertical-align: 1.8rem;
   padding-top: .75em;
-}
-.mod-catal .catal-ex-notif-container {
-  display: block;
-  /*position: absolute;
-		top: 1rem; right: 12%;
-	*/
-  padding: 1.3rem 1rem 1.3rem 2rem!important;
-  z-index: 99999;
-  background: rgba(255, 255, 255, 0.99);
-  color: #cc327e;
-  width: 450px!important;
-}
-.mod-catal .catal-ex-notif-close-btn {
-  background: transparent;
-  border: 0;
-  color: #909b9d;
-  font-size: 1.1rem;
-  line-height: 2rem;
 }
 .mod-catal .catal-ex-tooltip {
   padding: 0 1rem;
@@ -932,14 +921,11 @@
   border-color: #00525e;
   background: #0c8192;
 }
-.mod-catal .modal-index .catal-results-index-alpha-list li.current a {
+.mod-catal .modal-index .catal-results-index-alpha-list li.current span {
   border-color: #51082c;
+  font-weight: normal;
+  color: #ffffff;
   background: #910f4f;
-}
-.mod-catal .modal-index .catal-results-index-alpha-list li.current a:focus,
-.mod-catal .modal-index .catal-results-index-alpha-list li.current a:hover {
-  border-color: #910f4f;
-  background: #cc327e;
 }
 .mod-catal .modal-index .esf-results-nb {
   font-weight: bold;
@@ -1027,6 +1013,17 @@
 }
 .ie10 .mod-catal .catal-ex-item-tooltip .catal-ex-tooltip-list {
   max-width: 28rem;
+}
+.catalogue .catal-ex-notif-container {
+  z-index: 99999;
+  display: block;
+  width: 450px!important;
+  padding: 1.3rem 1rem 1.3rem 2rem!important;
+  color: #cc327e;
+  background: rgba(255, 255, 255, 0.99);
+}
+.catalogue .catal-ex-notif-close-btn {
+  display: none;
 }
 
 /*# sourceMappingURL=maps/mobile-catalogue-exhibitors.css.map */

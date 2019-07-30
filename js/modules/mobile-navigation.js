@@ -49,7 +49,7 @@
             scrollTop: 0
         }, 600);
     });
-   /** window.addEventListener('scroll', function() {
+    /*window.addEventListener('scroll', function() {
         clearTimeout(scrolltimer);
         scrolltimer = setTimeout(function() {
             if ($(window).height() > $(window).width() || ($(window).height() > $(window).width() && $(window).height() > 400)) {
@@ -66,13 +66,13 @@
                 $banner.removeClass('is-stuck');
             }
         }, 15);
-    }, true);
-    $(window).on('resize.sticky', function(){
+    }, true);*/
+    /*$(window).on('resize.sticky', function(){
         if( $(window).height() < 400){
             $btnTTT.addClass('is-stuck');
             $banner.removeClass('is-stuck');
         }
-    }); **/
+    });*/
 })(jQuery);
 
 /**!

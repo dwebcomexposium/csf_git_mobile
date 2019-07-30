@@ -96,11 +96,13 @@
 .mod-catal .catal-ex-item-stand-item {
   display: inline-block;
 }
-.mod-catal .catal-ex-item-stand-item .catal-ex-item-stand-link {
+.mod-catal .catal-ex-item-stand-item .catal-ex-item-stand-link,
+.mod-catal .catal-ex-item-stand-item .catal-ex-item-stand-nolink {
   padding-right: 0.8rem;
   border-right: 1px solid #e3e9ea;
 }
-.mod-catal .catal-ex-item-stand-item:last-of-type .catal-ex-item-stand-link {
+.mod-catal .catal-ex-item-stand-item:last-of-type .catal-ex-item-stand-link,
+.mod-catal .catal-ex-item-stand-item:last-of-type .catal-ex-item-stand-nolink {
   padding-right: 0;
   border-right: 0;
 }
@@ -323,7 +325,7 @@
 .mod-catal .crs-list .crs-item .crs-button:hover {
   color: #910f4f;
 }
-.mod-catal .catal-ex-notif-container {
+.catalogue .catal-ex-notif-container {
   z-index: 99999;
   display: block;
   width: 450px !important;
@@ -331,7 +333,7 @@
   color: #cc327e;
   background: rgba(255, 255, 255, 0.99);
 }
-.mod-catal .catal-ex-notif-close-btn {
+.catalogue .catal-ex-notif-close-btn {
   display: none;
 }
 

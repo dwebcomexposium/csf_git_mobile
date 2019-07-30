@@ -227,6 +227,9 @@
   line-height: 1.43;
   font-size: 1.4rem;
 }
+.mod-catal .catal-prd-main .catal-prd-main-desc-content p {
+  line-height: inherit;
+}
 .mod-catal .catal-prd-main .catal-prd-main-brand {
   border-top: 1px solid #e3e9ea;
   margin-left: 1rem;

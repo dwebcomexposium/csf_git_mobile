@@ -187,7 +187,8 @@ body:not(.js) .mod-catal .catal-ed-group-content.js-hidden {
 .mod-catal .catal-ed-main .catal-ed-main-stand-ref .icon-catal {
   color: #566e02;
 }
-.mod-catal .catal-ed-main .catal-ed-main-stand-ref-link {
+.mod-catal .catal-ed-main .catal-ed-main-stand-ref-link,
+.mod-catal .catal-ed-main .catal-ed-main-stand-ref-nolink {
   color: #2b2f2f;
 }
 .mod-catal .catal-ed-main .catal-ed-main-stand-name {
@@ -234,6 +235,9 @@ body:not(.js) .mod-catal .catal-ed-group-content.js-hidden {
   margin-top: 0;
   line-height: 1.43;
   font-size: 1.4rem;
+}
+.mod-catal .catal-ed-main .catal-ed-main-desc-content p {
+  line-height: inherit;
 }
 .mod-catal .catal-ed-main .catal-ed-main-cat {
   border-top: 1px solid #e3e9ea;
@@ -522,7 +526,8 @@ body:not(.js) .mod-catal .catal-ed-group-content.js-hidden {
 .mod-catal .catal-ed-products .catal-edp-stand-item .icon-catal {
   color: #566e02;
 }
-.mod-catal .catal-ed-products .catal-edp-stand-link {
+.mod-catal .catal-ed-products .catal-edp-stand-link,
+.mod-catal .catal-ed-products .catal-edp-stand-nolink {
   border-right: 0;
   color: #2b2f2f;
 }
@@ -551,6 +556,7 @@ body:not(.js) .mod-catal .catal-ed-group-content.js-hidden {
   padding-left: 0;
 }
 .mod-catal .catal-ed-products .catal-edp-cat-item {
+  margin-right: 1rem;
   list-style-type: none;
   font-size: 1.2rem;
   color: #474d4e;
@@ -564,7 +570,7 @@ body:not(.js) .mod-catal .catal-ed-group-content.js-hidden {
   font-weight: bold;
 }
 .mod-catal .catal-ed-products .catal-ex-item-cat-iconmore {
-  margin: -0.3rem 0 0 1rem;
+  margin-top: -0.3rem;
 }
 .mod-catal .catal-ed-products .catal-ex-item-cat-more-link {
   margin-top: 0;

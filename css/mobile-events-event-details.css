@@ -127,12 +127,6 @@
   padding: 0.5em 0.9em;
   font-size: 1.3rem;
 }
-.mod-catal .catal-ex-notif-close-btn {
-  background: transparent;
-  border: 0;
-  font-size: 1.1rem;
-  line-height: 2rem;
-}
 .mod-catal .evd-group {
   clear: both;
   margin: 1rem;
@@ -205,7 +199,8 @@
   margin-right: 0.2rem;
   color: #566e02;
 }
-.mod-catal .evd-infos-stand .evd-infos-stand-link {
+.mod-catal .evd-infos-stand .evd-infos-stand-link,
+.mod-catal .evd-infos-stand .evd-infos-stand-nolink {
   color: #2b2f2f;
 }
 .mod-catal .evd-infos-theme .evd-infos-theme-list,
@@ -437,6 +432,9 @@
   display: inline-block;
   border: 2px solid #00525e;
   margin-right: 0.7rem;
+}
+.catalogue .catal-ex-notif-close-btn {
+  display: none;
 }
 
 /*# sourceMappingURL=maps/mobile-events-event-details.css.map */

@@ -43,7 +43,7 @@
 		var registerEvents = function() {
 
 			// Autocomplete/autosuggest
-			plugin.settings.remoteurl = $element.find('meta[itemprop=target]').prop('content');
+			plugin.settings.remoteurl = $element.data('target');
 			plugin.settings.inputField = $element.find('.gsf-input');
 
 			// Text input

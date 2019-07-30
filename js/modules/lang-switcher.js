@@ -28,7 +28,8 @@
 			var $lsToggle = $(this);
 			// Adding higer z-index to footer > .inside than to its sibling .is-stuck.sf-ttt
 			// It seems .is-open isn't there yet when the test is made so z-index is set in the 'else' statement
-			var z = $('.is-stuck.sf-ttt').css('zIndex');
+                        // Change headroom by is-stuck if problems
+			var z = $('.headroom.sf-ttt').css('zIndex');
 			if ($_this.hasClass('is-open')) {
 				$('.site-footer .inside').css({'zIndex': 'auto'});
 			} else {

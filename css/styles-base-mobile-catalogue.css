@@ -1010,39 +1010,17 @@ s,m,l,n = small, medium, large, none
   /*
 	
 	== Common
-	== Fonts needed by catalogue and a *Second icon set* for Catalogue and Events (the icon set for Corporate isn't loaded)
+	== Fonts needed by Catalogue and Events for a *Second icon set* (the icon set for Corporate isn't loaded)
+	== Gudea, League Gothic and Droid Sans aren't loaded here anymore: they should (and are) loaded by the main styles-base-corporate.less/css and then used by Catalogue/Events. Montserrat isn't used either by Corporate nor Catalogue/Events
 
 */
-  /* Gudea */
-  /* League Gothic */
-  /* Droid Sans */
-  /* Montserrat */
-  /* Seems to be only used by Visual theme
-// regular
-@font-face {
-	font-family: 'Montserrat';
-	src: url('./fonts/montserrat/Montserrat-Regular-webfont.eot');
-	src: url('./fonts/montserrat/Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('./fonts/montserrat/Montserrat-Regular-webfont.woff2') format('woff2'),
-		 url('./fonts/montserrat/Montserrat-Regular-webfont.woff') format('woff'),
-		 url('./fonts/montserrat/Montserrat-Regular-webfont.ttf') format('truetype'),
-		 url('./fonts/montserrat/Montserrat-Regular-webfont.svg#gudearegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-// bold
-@font-face {
-	font-family: 'Montserrat';
-	src: url('./fonts/montserrat/Montserrat-Bold-webfont.eot');
-	src: url('./fonts/montserrat/Montserrat-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('./fonts/montserrat/Montserrat-Bold-webfont.woff2') format('woff2'),
-		 url('./fonts/montserrat/Montserrat-Bold-webfont.woff') format('woff'),
-		 url('./fonts/montserrat/Montserrat-Bold-webfont.ttf') format('truetype'),
-		 url('./fonts/montserrat/Montserrat-Bold-webfont.svg#gudearegular') format('svg');
-	font-weight: bold;
-	font-style: normal;
-}
+  /* Gudea
+   League Gothic
+   Droid Sans
+   @TOPROD 2016-04-06 These fonts are loaded by styles-base-corporate.less/css, not by Catalogue/Events anymore
 */
+  /* Montserrat */
+  /* Seems to be only used by Visual theme */
   /*
 
 	== Mobile / Catalogue and Events
@@ -1230,48 +1208,6 @@ s,m,l,n = small, medium, large, none
  */
   /* buttons colors */
   /* buttons sizes */
-}
-@font-face {
-  font-family: 'Gudea';
-  src: url('fonts/gudea/Gudea-Regular-webfont.eot');
-  src: url('fonts/gudea/Gudea-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/gudea/Gudea-Regular-webfont.woff2') format('woff2'), url('fonts/gudea/Gudea-Regular-webfont.woff') format('woff'), url('fonts/gudea/Gudea-Regular-webfont.ttf') format('truetype'), url('fonts/gudea/Gudea-Regular-webfont.svg#gudearegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Gudea';
-  src: url('fonts/gudea/Gudea-Italic-webfont.eot');
-  src: url('fonts/gudea/Gudea-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/gudea/Gudea-Italic-webfont.woff2') format('woff2'), url('fonts/gudea/Gudea-Italic-webfont.woff') format('woff'), url('fonts/gudea/Gudea-Italic-webfont.ttf') format('truetype'), url('fonts/gudea/Gudea-Italic-webfont.svg#gudeaitalic') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Gudea';
-  src: url('fonts/gudea/Gudea-Bold-webfont.eot');
-  src: url('fonts/gudea/Gudea-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/gudea/Gudea-Bold-webfont.woff2') format('woff2'), url('fonts/gudea/Gudea-Bold-webfont.woff') format('woff'), url('fonts/gudea/Gudea-Bold-webfont.ttf') format('truetype'), url('fonts/gudea/Gudea-Bold-webfont.svg#gudeabold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'League Gothic';
-  src: url('fonts/league-gothic/LeagueGothic-Regular-webfont.eot');
-  src: url('fonts/league-gothic/LeagueGothic-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.woff2') format('woff2'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.woff') format('woff'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.ttf') format('truetype'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.svg#gudearegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Droid Sans';
-  src: url('fonts/droidsans/DroidSans-webfont.eot');
-  src: url('fonts/droidsans/DroidSans-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/droidsans/DroidSans-webfont.woff2') format('woff2'), url('fonts/droidsans/DroidSans-webfont.woff') format('woff'), url('fonts/droidsans/DroidSans-webfont.ttf') format('truetype'), url('fonts/droidsans/DroidSans-webfont.svg#gudearegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Droid Sans';
-  src: url('fonts/droidsans/DroidSans-Bold-webfont.eot');
-  src: url('fonts/droidsans/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/droidsans/DroidSans-Bold-webfont.woff2') format('woff2'), url('fonts/droidsans/DroidSans-Bold-webfont.woff') format('woff'), url('fonts/droidsans/DroidSans-Bold-webfont.ttf') format('truetype'), url('fonts/droidsans/DroidSans-Bold-webfont.svg#gudearegular') format('svg');
-  font-weight: bold;
-  font-style: normal;
 }
 .mod-catal i.icon-catal:before {
   font-family: 'icon-catal';
